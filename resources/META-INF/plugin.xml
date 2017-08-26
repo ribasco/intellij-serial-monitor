@@ -50,6 +50,8 @@
 
         <projectConfigurable key="display-name" bundle="SerialMonitorBundle" groupId="tools" id="settings.serialmonitor"
                              instance="com.intellij.plugins.serialmonitor.SerialMonitorConfigurable"/>
+
+        <errorHandler implementation="com.intellij.plugins.serialmonitor.SerialMonitorErrorReportSubmitter"/>
     </extensions>
 
     <project-components>
